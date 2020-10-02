@@ -1,0 +1,37 @@
+
+{
+	"root_dir": "/Users/stitova/Dropbox/map_intervention_impact/intervention_impact",
+	"subdir_name": "20200324_test_vector_bug/input",
+	"vector_raster_dir": "Dropbox/map_intervention_impact/archetypes/covariates/no_transmission_limits/africa/relative_vector_abundance",
+	"site_fname": "site_details.csv",
+
+	"overwrite_input_files": "True",
+	"era5_climate_params":{
+		"burnin": {
+			"start_year": 1980,
+			"end_year": 2018
+		},
+		"intervention": {
+			"start_year": 2016,
+			"end_year": 2018
+		}
+	},
+	"climate_fnames": {
+		"air_temp": "dtk_15arcmin_air_temperature_daily.bin",
+		"land_temp": "dtk_15arcmin_land_temperature_daily.bin",
+		"rainfall": "dtk_15arcmin_rainfall_daily.bin",
+		"relative_humidity": "dtk_15arcmin_relative_humidity_daily.bin"
+	},
+	"climate_res_in_arcsec": 900,
+	"node_pop": 2000,
+
+	"n_random_seeds": 10,
+	"burnin_years": 39,
+	"burnin_id": "91ef35aa-1a79-ea11-a2bf-f0921c167862",
+	"asset_exp_id": "",
+
+	"intervention_years": 3,
+	"intervention_fname": "interventions.csv",
+	"intervention_id": "13f7593d-d779-ea11-a2bf-f0921c167862"
+
+}
